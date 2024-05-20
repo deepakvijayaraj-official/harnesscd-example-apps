@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_deepakvijayaraj_official_harnesscd_example_apps_1716186843822-push-trigger-input-set
+  identifier: Build_deepakvijayaraj_official_harnesscd_example_apps_1716186843822pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: DevOpsCentrum
+  pipeline:
+    identifier: Build_deepakvijayaraj_official_harnesscd_example_apps_1716186843822
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
